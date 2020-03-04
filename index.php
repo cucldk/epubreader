@@ -86,8 +86,8 @@ if(empty($_GET['f'])){
 
 	<script type="text/javascript"> 
 		var appOptions = {
-			filePath:"/zxepub/<?php echo urlencode($_GET['f']);?>",
-			epubStatic:"/epubreader/static/epub/",
+			filePath:"/epub/<?php echo urlencode($_GET['f']);?>",
+			epubStatic:"/static/epub/",
 		}
 	</script>
 	<script src="static/epub/js/libs/jquery.min.js"></script>
